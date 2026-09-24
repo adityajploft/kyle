@@ -1,0 +1,23 @@
+<svg width="33" height="33" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M14 1.44337C15.547 0.550208 17.453 0.550209 19 1.44337L28.2894 6.8066C29.8364 7.69977 30.7894 9.3504 30.7894 11.1367V21.8632C30.7894 23.6495 29.8364 25.3001 28.2894 26.1933L19 31.5565C17.453 32.4497 15.547 32.4497 14 31.5565L4.71058 26.1933C3.16358 25.3001 2.21058 23.6495 2.21058 21.8632V11.1367C2.21058 9.3504 3.16358 7.69977 4.71059 6.8066L14 1.44337Z" fill="white"/>
+<g filter="url(#filter0_d_3338_12281)">
+<path d="M23.0096 13.5075L18.18 9.57751C17.2362 8.81251 15.7615 8.80501 14.825 9.57001L9.99534 13.5075C9.30223 14.07 8.88194 15.195 9.02941 16.08L9.95848 21.735C10.1723 23.0025 11.33 24 12.5908 24H20.4068C21.6529 24 22.8327 22.98 23.0465 21.7275L23.9756 16.0725C24.1083 15.195 23.688 14.07 23.0096 13.5075Z" fill="url(#paint0_linear_3338_12281)"/>
+<path d="M16.4983 21.5625C16.196 21.5625 15.9453 21.3075 15.9453 21V18.75C15.9453 18.4425 16.196 18.1875 16.4983 18.1875C16.8006 18.1875 17.0513 18.4425 17.0513 18.75V21C17.0513 21.3075 16.8006 21.5625 16.4983 21.5625Z" fill="white"/>
+</g>
+<defs>
+<filter id="filter0_d_3338_12281" x="5" y="9" width="23" height="23" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="4"/>
+<feGaussianBlur stdDeviation="2"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.231771 0 0 0 0 0.563203 0 0 0 0 0.741667 0 0 0 0.4 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_3338_12281"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_3338_12281" result="shape"/>
+</filter>
+<linearGradient id="paint0_linear_3338_12281" x1="16.5" y1="9" x2="16.5" y2="24" gradientUnits="userSpaceOnUse">
+<stop stop-color="#456BFF"/>
+<stop offset="1" stop-color="#0DAFFF"/>
+</linearGradient>
+</defs>
+</svg>

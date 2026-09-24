@@ -1,0 +1,852 @@
+/**************** DARK MODE PAGES CSS ***********************/
+
+body.dark {
+  background-color: #2f2f2f !important;
+}
+body.dark h1,
+body.dark h2,
+body.dark h3,
+body.dark h4,
+body.dark h5,
+body.dark h6 {
+  color: #fff !important;
+}
+body.dark .dashboard-header {
+  background: #1f1f1f;
+  border-bottom: 1px solid #2f2f2f !important;
+}
+body.dark .footer-main {
+  background: #1f1f1f;
+  border-top: 1px solid #2f2f2f !important;
+}
+body.dark .back-block,
+body.dark .card-box,
+body.dark .contact-update .contact-update-item a .icon,
+body.dark .img-user,
+body.dark .upload-buyer,
+body.dark .affiliate_col_inner,
+body.dark .affiliate_revenue_row>*,
+body.dark .affiliate_table,
+body.dark .dash-block,
+body.dark .REP_Code_block,
+body.dark .documents_reverify_inner{
+  background: rgb(255 255 255 / 10%);
+}
+body.dark .back-block .center-head,
+body.dark .upload-buyer p {
+  color: #fff;
+}
+body.dark .personal-information,
+body.dark .contact-detail,
+body.dark .contact-desc-box {
+  background: #2f2f2f;
+  color: #cacaca;
+}
+body.dark .personal-information h3 {
+  color: #fff;
+}
+body.dark p {
+  color: #cacaca;
+}
+body.dark .contact-update .contact-update-item a,
+body.dark .user-name-title,
+body.dark .buyer_profile_details > li > label,
+body.dark .buyer_profile_details > li > label::after{
+  color: #fff;
+}
+body.dark .contact-update {
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+body.dark .footer-main .copyright-text,
+body.dark .footer-main .copyright-text a {
+  color: #fff;
+}
+bo00000004dy.dark .profile-data-content h3 {
+  color: #fff;
+}
+body.dark .active-inactive button,
+body.dark .field-box button,
+body.dark .otp-digit .otpnumb,
+body.dark .card-box-blocks .form-control,
+body.dark .map_radius_info input[type="number"]{
+  background: rgb(255 255 255 / 10%) !important;
+  border-color: rgb(255 255 255 / 20%) !important;
+  color: #fff !important;
+}
+body.dark .active-inactive button .userimg,
+body.dark .field-box button .commentic {
+  border-color: rgb(255 255 255 / 20%);
+}
+body.dark .dropdown-arr svg path,
+body.dark .user-dropdown .arrow-icon svg path {
+  stroke: #fff;
+}
+body.dark .account-check .btn {
+  background: rgba(25, 180, 0, 0.15);
+}
+body.dark .component-group .dropdown-menu,
+body.dark .component-group .dropdown-menu:before,
+body.dark .user-dropdown .dropdown-menu,
+body.dark .user-dropdown .dropdown-menu:before {
+  background: #2f2f2f;
+  box-shadow: 2.01px -0.934153px 18.6831px rgba(4, 12, 30, 0.2);
+}
+body.dark .component-group .dropdown-menu li .dropdown-item,
+body.dark .user-dropdown .dropdown-menu li .dropdown-item {
+  border-color: rgb(255 255 255 / 20%);
+  color: #fff;
+}
+body.dark .component-group .dropdown-menu li:hover:before,
+body.dark .component-group .dropdown-menu li.active:before,
+body.dark .user-dropdown .dropdown-menu li:hover:before,
+body.dark .user-dropdown .dropdown-menu li.active:before {
+  background: #fff;
+}
+body.dark .user-dropdown .dropdown-menu li .dropdown-item img,
+body.dark .form-icon img,
+body.dark .form-icon-password img,
+body.dark .center-content img,
+body.dark .header-logo img {
+  filter: invert(100%) sepia(91%) saturate(32%) hue-rotate(199deg)
+    brightness(140%) contrast(109%);
+  mix-blend-mode: luminosity;
+}
+body.dark .profile-varification {
+  background: #444;
+}
+body.dark .card-box-blocks {
+  background: #1f1f1f !important;
+}
+body.dark .card-box-blocks label,
+body.dark .otp-digit .otpnumb,
+body.dark .card-box-blocks .form-control::placeholder,
+body.dark .application-process h3,
+body.dark .btn-outline,
+body.dark .file-upload-choosen .file-select .file-select-name {
+  color: #fff !important;
+}
+
+body.dark .file-upload-choosen .file-select,
+body.dark .radio-block-group {
+  background: rgb(255 255 255 / 10%) !important;
+  border-color: rgb(255 255 255 / 20%) !important;
+}
+
+body.dark .profile-varification .nav-item .nav-link {
+  background: #1f1f1f;
+  color: #fff !important;
+}
+
+body.dark .profile-varification .nav-item:not(:last-child) .nav-link {
+  border-color: rgb(255 255 255 / 20%) !important;
+}
+body.dark .application-process {
+  background: rgb(255 255 255 / 10%) !important;
+}
+body.dark .label-container span {
+  color: #fff;
+}
+body.dark .change-password-form {
+  border-top-color: rgb(255 255 255 / 20%) !important;
+}
+body.dark .back {
+  color: #fff;
+}
+body.dark .back svg path {
+  stroke: #fff;
+}
+
+body.dark .upload-photo,
+body.dark .file-upload {
+  border-color: rgb(255 255 255 / 20%) !important;
+}
+body.dark .file-upload {
+  color: #fff;
+}
+body.dark .containers .imageWrapper {
+  background: #2f2f2f;
+}
+body.dark .select2-container--default .select2-selection--single,
+body.dark .select2-container--default .select2-selection--multiple {
+  background: rgb(255 255 255 / 10%) !important;
+  border-color: rgb(255 255 255 / 20%) !important;
+}
+
+body.dark
+  .select2-container--default
+  .select2-selection--single
+  .select2-selection__rendered {
+  color: #fff !important;
+}
+
+/************ LOGIN ****************/
+
+body.dark .account-in,
+body.dark .grid-block-view,
+body.dark .boost-box-block-item {
+  background: #1f1f1f;
+  border-color: rgb(255 255 255 / 20%) !important;
+}
+
+body.dark .form-control,
+body.dark .form-control-form {
+  background: rgb(255 255 255 / 10%) !important;
+  border-color: rgb(255 255 255 / 20%) !important;
+  color: #fff !important;
+}
+
+body.dark .form-control::placeholder,
+body.dark .form-control-form::placeholder,
+body.dark .boost-title,
+body.dark .boost-box-block-item .postion,
+body.dark .priceby {
+  color: #fff !important;
+}
+
+body.dark .btn-fill:hover {
+  border-color: #fff;
+  color: #fff;
+}
+body.dark .form-icon {
+  border-color: #fff;
+}
+body.dark .slider,
+body.dark .css-13cymwt-control,
+body.dark .css-13cymwt-control,
+body.dark .css-t3ipsp-control {
+  background-color: #363636 !important;
+  border-color: rgb(255 255 255 / 20%) !important;
+}
+body.dark .notifyinfo {
+  background-color: #363636 !important;
+  color: #fff !important;
+}
+body.dark .account-in label,
+body.dark .toggle-heading,
+body.dark .link-pass,
+body.dark .account-now,
+body.dark .account-now a,
+body.dark .upload-file,
+body.dark .upload-buyer p b,
+body.dark .welcome,
+body.dark .watch-video .title,
+body.dark .copy-link,
+body.dark .upload-single-data .drag-file-area label .browse-files-text,
+body.dark .back-block .page-out,
+body.dark .property-critera-details li a,
+body.dark .name-dealer,
+body.dark .modal-form-main .btn-close,
+body.dark .profile-account label,
+body.dark .modal-form label,
+body.dark .msg-passwrd,
+body.dark .share_btn,
+body.dark .share_btn:hover,
+body.dark .offer_price_select .open_gallery{
+  color: #fff !important;
+}
+
+body.dark input[type="radio"]:checked:before,
+body.dark .form-icon-password:before {
+  background: #fff;
+}
+
+body.dark .upload-multiple-data,
+body.dark .upload-single-data,
+body.dark #inviteCode.invite-page ,
+body.dark .modal-invite-link,
+body.dark .rep_copy_box,
+body.dark .affiliate_code_copy{
+  background: #1f1f1f;
+  border-color: rgb(255 255 255 / 20%) !important;
+}
+body.dark .upload-single-data .drag-file-area label .browse-files-text,
+body.dark .offer_price_select .open_gallery{
+  border-color: rgb(255 255 255 / 20%) !important;
+}
+
+body.dark .watch-video,
+body.dark .property-critera-block,
+body.dark .modal-content,
+body.dark .boost-box .card-box-inner,
+body.dark .lic-detail-area,
+body.dark .licenses-wrapper .upload-photo,
+body.dark .documents_upload_box,
+body.dark .pro_deal_table tbody tr:nth-child(odd) td{
+  background: #1f1f1f;
+}
+
+body.dark .watch-video svg path {
+  stroke: #fff;
+}
+
+body.dark .critera-card {
+  background: rgb(255 255 255 / 20%) !important;
+}
+
+body.dark .support-account .card-box-blocks {
+  padding: 20px !important;
+}
+body.dark .card-box-blocks .css-1dimb5e-singleValue,
+body.dark .affiliate_code_copy>span,
+body.dark .revenue_col_right>span,
+body.dark .affiliate_table thead th,
+body.dark .affiliate_table tbody td, 
+body.dark .affiliate_table tbody td p{
+  color: #fff !important;
+}
+body.dark #inviteCode.invite-page input#link,
+body.dark .social-share-btn .modal-invite-link input#link{
+  outline: 0 !important;
+  background: transparent !important;
+  color: #fff !important;
+}
+.loader {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.dark .radio-block {
+  background: #363636;
+  border: 1px solid #5e5e5e !important;
+}
+.dark .MuiStepLabel-label {
+  color: rgb(255 255 255 / 87%) !important;
+  font-weight: 500;
+}
+body.dark button.btn.not-verified {
+  background: rgb(231 231 231 / 15%);
+  border-color: #6a6a6a;
+}
+body .main-login-form .form-group input:-webkit-autofill {
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: #000;
+  box-shadow: inset 0 0 0px 30px #f6f8fc !important;
+}
+body.dark .main-login-form .form-group input:-webkit-autofill {
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: #ffffff;
+  box-shadow: inset 0 0 0px 30px #363636 !important;
+}
+body.dark .renew-wrapper .auto-renew,
+body.dark .card-box-light .note,
+body.dark .card-box-light .feature-item-title,
+body.dark .card-box-light .price-pc {
+  color: #ffffff;
+}
+
+body.dark .swal2-title {
+  color: #000000 !important;
+}
+body.dark .swal2-html-container {
+  color: #000000 !important;
+}
+body.dark .card-box-light {
+  background: #1f1f1f;
+}
+body.dark .card-box-light .feature-item-content {
+  background: rgb(255 255 255 / 10%);
+  border-color: rgb(255 255 255 / 20%);
+}
+
+body.dark .payment-card {
+  background-color: #444;
+}
+
+body.dark .inner-call-box .dropdown-toggle .dropdown-arr svg path{
+  stroke: #464B70;
+}
+body.dark .inner-call-box .dropdown-toggle{
+  background-color: #D6F5D1 !important;
+}
+body.dark .inswittcher label{
+  color: #fff;
+}
+
+body.dark .profile-verification-st,
+body.dark .or span{
+  background-color: #1f1f1f;
+}
+body.dark .profile-verification-st .cards{
+  background-color: #2f2f2f;
+}
+body.dark .profile-verification-st .cards .heading:not(.profile-congtrs .cards .heading),
+body.dark .profile-verification-st .cards .subheading:not(.profile-congtrs .cards .subheading){
+  color: #fff;
+}
+
+body.dark .buyer-active-verfiy::after{
+  border-right-color: #4c4c4c;
+  border-left-color: #1f1f1f;
+}
+body.dark .buyer-active-verfiy{
+  /* background-color: #1f1f1f; */
+  background-color: #4c4c4c;
+}
+body.dark .buyer-active-verfiy span,
+body.dark .or span{
+  color: #fff;
+}
+body.dark .ac-de-feeture {
+  color: #fff;
+}
+body.dark .modal-video-main .modal-content{
+  border: 1px solid #9d9d9d;
+}
+body.dark .modal-video-main .modal-content .modal-header{
+  border-bottom-color: #9d9d9d;
+}
+body.dark .modal-video-main .modal-content .modal-header .btn-close{
+  filter: invert(1);
+  opacity: 1;
+}
+body.dark .your-buyer,
+body.dark .chat_status_area>p{
+  color: #1f1f1f;
+}
+body.dark .mobile_hamburger svg path{
+  fill: #fff;
+}
+
+body.dark .select div[id*="-placeholder"],
+body.dark .multi-select div[id*="-placeholder"],
+body.dark .select input[id*="-input"],
+body.dark .multi-select input[id*="-input"]{
+  color: #fff !important;
+}
+
+body.dark .buyer-blog-area .critera-card .price-img{
+  background-color: #818181;
+}
+.dark .linkExpire .heading {
+  color: #fff;
+}
+.dark .linkExpire .subheading {
+  color: #fff;
+}
+
+.dark  span.contact-preference.mx-1 img {
+  background-color: #ffffff;
+  padding: 5px;
+  border-radius: 25px;
+  max-width: 34px;
+}
+
+body.dark .property-critera-block,
+body.dark .cornor-block{
+  box-shadow: 8px 10px 23px 0px rgb(72 72 72 / 32%);
+}
+
+
+body.dark .page-item.active .page-link {
+  z-index: 3;
+  color: #fff;
+  background-color: #1f1f1f;
+  border-color: #1f1f1f;
+}
+body.dark .page-link {
+  color: #000000;
+  background-color: #f5f7f9;
+}
+body.dark .modal-social-share-main .modal-header .btn-close{
+  filter: invert(1);
+  opacity: 1;
+}
+
+
+/* Phase3 pages */
+body.dark .top_icons_list .dropdown .dropdown-menu{
+  background: #1f1f1f;
+  border: 1px solid rgb(255 255 255 / 20%);
+}
+body.dark .top_icons_list .dropdown .dropdown-menu::after{
+  border-bottom-color: #1f1f1f;
+}
+body.dark .top_icons_list .dropdown .dropdown-menu::before{
+  border-bottom-color: rgb(255 255 255 / 20%);
+  filter: none;
+  -webkit-filter: none;
+  top: -11px;
+}
+body.dark .top_icons_list .dropdown ul>li{
+  background: rgb(255 255 255 / 10%);
+}
+body.dark .dropdown_end,
+body.dark .deal_property_content ul>li,
+body.dark .buyer_top_select{
+  color: #cacaca;
+}
+body.dark .dropdown_end svg path{
+  stroke: #fff;
+}
+
+body.dark .chat_sidebar,
+body.dark .chat_box,
+body.dark .scrollbar_design::-webkit-scrollbar-thumb{
+  background-color: #1f1f1f;
+}
+body.dark .chat_header_user>div span,
+body.dark .msg_send_footer>input:not(input[type="submit"]),
+body.dark .msg_content,
+body.dark .send_deal_form .form-label,
+body.dark .buyer_top_select label,
+body.dark .chat_sidebar .select span + div>div:first-child>div:first-child{
+  color: #fff;
+}
+body.dark .chat_header_action button svg path,
+body.dark .chat_sidebar h6 .dropdown button.btn svg path{
+  fill: #fff;
+}
+body.dark .chat_header_action .dropdown-menu,
+body.dark .chat_sidebar h6 .dropdown .dropdown-menu{
+  background: #434343;
+  border-color: rgb(255 255 255 / 20%);
+}
+body.dark .chat_header_action .dropdown-menu::before,
+body.dark .chat_sidebar h6 .dropdown .dropdown-menu::before{
+  border-bottom-color: #434343;
+}
+body.dark .chat_header_action .dropdown-menu>a,
+body.dark .chat_sidebar h6 .dropdown .dropdown-menu>a,
+body.dark  .day-header.line-with-text,
+body.dark .information_list>li span{
+  color: #cacaca;
+}
+body.dark .chat_header,
+body.dark .chat_header_action .dropdown-menu>a:hover,
+body.dark .chat_header_action .dropdown-menu>a:focus,
+body.dark .chat_header_action .dropdown-menu>a:active,
+body.dark .scrollbar_design:hover::-webkit-scrollbar-thumb,
+body.dark .msg_send_footer>input:not(input[type="submit"]),
+body.dark .chat_sidebar h6 .dropdown .dropdown-menu>a:hover,
+body.dark .chat_sidebar h6 .dropdown .dropdown-menu>a:focus,
+body.dark .chat_sidebar h6 .dropdown .dropdown-menu>a:active,
+body.dark .chat_side_list>li::after,
+body.dark .noti_buyer_chat_foot,
+body.dark .pro_deal_table table thead th,
+body.dark .pro_deal_table tbody tr:nth-child(even) td,
+body.dark .page-item.disabled .page-link,
+body.dark .notification_pro_deal>li:last-child,
+body.dark .pro_img,
+body.dark .pro_deal_table::before,
+body.dark .pro_deal_table::after{
+  background-color: rgb(255 255 255 / 10%);
+}
+body.dark .chat_side_list>li{
+  border-bottom-color: rgb(255 255 255 / 10%);
+}
+body.dark .msg_content:not(.outgoing_msg .msg_content),
+body.dark .msg_content:not(.outgoing_msg .msg_content):before,
+body.dark .outgoing_msg.offer_item .msg_content, 
+body.dark .outgoing_msg.offer_item .msg_content::before{
+  background-color: #363636;
+}
+
+body.dark .new_modal_close .btn-close{
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fff'%3e%3cpath d='M.293.293a1 1 0 011.414 0L8 6.586 14.293.293a1 1 0 111.414 1.414L9.414 8l6.293 6.293a1 1 0 01-1.414 1.414L8 9.414l-6.293 6.293a1 1 0 01-1.414-1.414L6.586 8 .293 1.707a1 1 0 010-1.414z'/%3e%3c/svg%3e");
+}
+body.dark .column_bg_space>.deal_column,
+body.dark .affiliate_program_box>.affiliate_program_column{
+  background: #1f1f1f;
+  color: #fff;
+}
+body.dark .seller-notification-card,
+body.dark .column_bg_space>.deal_column,
+body.dark .pro_deal_table{
+  background-color: #1f1f1f;
+}
+body.dark .seller-notification-box {
+  background-color: #2f2f2f;
+}
+body.dark .seller-notification-box .seller-notification-list .seller-notification-col {
+  border-left: solid 1px  rgb(255 255 255 / 10%);
+}
+body.dark .seller-notification-box .seller-notification-list .seller-notification-col:last-child{
+  border-right: solid 1px  rgb(255 255 255 / 10%);
+}
+body.dark .seller-notification-card h3 {
+  border-bottom: solid 1px #363636;
+}
+body.dark .seller-notification-list::-webkit-scrollbar-track,
+body.dark .custom_blue_scrollbar::-webkit-scrollbar-track{
+  background-color: #2f2f2f;
+}
+body.dark .deal_left_column{
+  border-right-color: rgb(255 255 255 / 20%);
+}
+body.dark .btn-w-icon:hover svg path{
+  stroke: #fff;
+}
+body.dark .total_notified>p::before{
+  border-left-color: #1f1f1f;
+}
+body.dark .deal_img_group a {
+  color: #49d8a3;
+}
+body.dark .pro_details .deal_info_list>li,
+body.dark .detail_deal_left .pro_details .nav .nav-item>a.nav-link{
+  background-color: #444444;
+  box-shadow: 6px 6px 20px rgb(34 34 34 / 19%);
+  -webkit-box-shadow: 6px 6px 20px rgb(34 34 34 / 19%);
+}
+body.dark .detail_deal_left .pro_details .nav .nav-item>a.nav-link {
+  border-bottom: 2px solid #575757;
+}
+body.dark .detail_deal_left .pro_details .nav .nav-item>a.nav-link.active {
+  border-bottom-color: #3F53FE;
+}
+body.dark .property-critera-block {
+  border: 1px solid #5b5b5b;
+}
+body.dark .cornor-block {
+  background-color: #1f1f1f;
+  border: 1px solid #5b5b5b;
+}
+body.dark,
+body.dark .form-icon.counts_icon,
+body.dark .pro_counts_icon,
+body.dark .pro_deal_table table thead th,
+body.dark .pro_deal_table tbody tr:nth-child(even) td{
+  color: #fff;
+}
+body.dark .account-with-social a {
+  border: 1px solid #626262;
+  color: #ffffff;
+}
+body.dark .column_bg_space.setting-card>.deal_column.setting-card-head {
+  background: #444444;
+  border-bottom: 1px solid #606060;
+}
+body.dark .setting-card-head-right .buyer_seller_toggle label {
+  border: solid 1px #555555;
+  background-color: #2f2f2f;
+}
+body.dark .setting-card-body .deal_column.settings:not(:last-child){
+  border-bottom: 1px solid #606060;
+}
+/* body.dark .buyer_seller_toggle>input:checked + label {
+    background-color: #3f53fe;
+} */
+body.dark .setting-card-head-right:before {
+  background: #606060;
+}
+body.dark .pro_details h3, 
+body.dark .setting-card-head-title,
+body.dark .list_content>span,
+body.dark .buyer_seller_toggle2 label span,
+body.dark .mode_type label span,
+body.dark .user-dropdown .dropdown-menu li .dropdown-item:hover .buyer_seller_toggle2 label span,
+body.dark .offer_label,
+body.dark .proof_checkbox label,
+body.dark .pro_deal_table td,
+body.dark .outline_btn,
+body.dark .notification_pro_deal>li{
+  color: #fff;
+}
+body.dark .buyer_seller_toggle2 label::before{
+  background-color: #2f2f2f;
+}
+body.dark .buyer_seller_toggle2 input:checked + label::before,
+body.dark .mode_type input:checked + label::before{
+  background-color: #fff;
+}
+body.dark .mode_type,
+body.dark .page-item.disabled .page-link{
+  border-color: rgb(255 255 255 / 20%);
+}
+body.dark .mode_type label::before{
+  right: 3px;
+}
+body.dark .offer_price_input input{
+  background-color: transparent;
+  color: #fff;
+}
+body.dark .offer_price_input input::-webkit-input-placeholder{
+  color: #fff;
+}
+body.dark .offer_price_input input::-moz-placeholder,
+body.dark .dash_boost_profile p{
+  color: #fff;
+}
+body.dark label.property-critera-block.buyer-blog-area.change-badge-color{
+  background-color: #364434;
+}
+body.dark .buyer_dash_linkTop li>a,
+body.dark .buyer_dash_bothBtn>a{
+  background: rgb(255 255 255 / 10%);
+  color: #fff;
+}
+body.dark .buyer_dash_deals>ul>li,
+body.dark .REP_Code_block>div,
+body.dark .pro_detail_middle_right,
+body.dark .notified_buyers_info{
+  background: #1f1f1f;
+}
+body.dark .buyer_dash_linkTop li>a:hover{
+  background-color: rgba(63, 83, 254, 1);
+}
+body.dark .boost-slot-panel .buyer-active-verfiy,
+body.dark .buyer-blog-new .buyer-active-verfiy,
+body.dark .notified_buyers_info_list li:not(:last-child)::after{
+  background: #e5f6fe;
+}
+body.dark .boost-slot-panel .buyer-active-verfiy span,
+body.dark .buyer-blog-new .buyer-active-verfiy span{
+  color: #4c4c4c;
+}
+body.dark label.property-critera-block.buyer-blog-area.change-badge-color .boost-slot-panel .buyer-active-verfiy::after{
+  border-right-color: #5e695d;
+}
+body.dark .css-1nmdiq5-menu>div>div,
+body.dark .user_block_content{
+  color: #000;
+}
+body.dark li:not(.blocked,.active-user) .chat_user_info>span,
+body.dark .notified_buyers_user_detail,
+body.dark .sold_out_btn label{
+  color: #fff;
+}
+body.dark li:not(.blocked,.active-user) .chat_status_area>p,
+body.dark .rep_copy_box span,
+body.dark .inner_room_details>li,
+body.dark .dash_deals_center>h4 a,
+body.dark .information_list>li label,
+body.dark .information_list>li label::after,
+body.dark .buyer_dash_deals .accordion-header .accordion-button,
+body.dark .seller-dash-card h2 .accordion-button{
+  color: #fff;
+}
+body.dark .modal_inner_form select{
+  background: rgb(255 255 255 / 10%) !important;
+  border-color: rgb(255 255 255 / 20%) !important;
+  color: #9b9b9b !important;
+}
+body.dark .both_modal_design .modal-header .btn-close,
+body.dark .buyer_dash_deals .accordion-button::after,
+body.dark .seller-dash-card .accordion-button::after{
+  filter: invert(1);
+  -webkit-filter: invert(1);
+}
+body.dark .rep_code_block{
+  background-color: #1f1f1f;
+  color: #fff;
+}
+body.dark .affiliate_table thead th,
+body.dark .affiliate_table tbody td{
+  border-bottom-color: rgb(255 255 255 / 20%) !important;
+}
+body.dark .information_list,
+body.dark .information_list>li{
+  border-color: #1f1f1f;
+}
+body.dark .sold_out_btn{
+  background-color: #444;
+}
+body.dark  .sold_out_deal{
+  background-color: rgba(31, 31, 31, 0.8);
+  border-color: #1f1f1f;
+}
+body.dark .total_notified>p,
+body.dark .deal_notifications_right{
+  background-color: rgb(255 255 255 / 10%);
+  box-shadow: none;
+  -webkit-box-shadow: none;
+}
+
+/* 17-12-2025 */
+body.dark .purchased_inner{
+  background-color: #313832;
+}
+body.dark .purchased_data>span sub,
+body.dark .switch_text label,
+body.dark .buyer_role_tab_btn:not(.is-active),
+body.dark .legend-item,
+body.dark .crm_create_btn,
+body.dark .crm_card_time{
+  color: #cacaca;
+}
+body.dark .purchased_top{
+  border-bottom: 1px solid rgba(70, 75, 112, 0.8);
+}
+body.dark .switch_text label::before{
+  background-color: #bbb6b6;
+}
+body.dark .switch_text input:checked + label::before{
+  background-color: #fff;
+}
+body.dark .pro_content_user,
+body.dark .buyer_role_tabs_top,
+body.dark .veri_box_column,
+body.dark .card-box .accr_data:not(:last-child)::after,
+body.dark .crm_cards_list>div{
+  background-color: rgb(255 255 255 / 10%);
+}
+body.dark .veri_box_column,
+body.dark .chart_area,
+body.dark .seller-dash-card>h3,
+body.dark .seller-dash-card .accordion-body{
+  border-color: rgb(255 255 255 / 10%);
+}
+body.dark .accr_title svg path{
+  stroke: #cacaca;
+}
+body.dark .veri_box_right{
+  background-color: rgb(255 255 255 / 80%);
+}
+body.dark .seller-dash-card{
+  background-color: #1f1f1f;
+}
+body.dark .crm_main_top{
+  border-color: rgb(255 255 255 / 20%);
+}
+body.dark .buyer_role_tabs_top::after{
+  background-color: rgb(255 255 255 / 20%);
+}
+body.dark .crm_cards_list::-webkit-scrollbar-track{
+	background-color: rgb(255 255 255 / 10%);
+}
+body.dark .crm_cards_list::-webkit-scrollbar{
+	background-color: rgb(255 255 255 / 10%);
+}
+body.dark .search_icon svg path{
+  stroke: #fff;
+}
+body.dark .crm_card_box>div{
+  background-color: #1f1f1f;
+}
+
+
+@media screen and (max-width: 767px){
+  body.dark .user-dropdown .img-user{
+    background-color: #fff !important;
+  }
+  body.dark .upload-buyer.bg-green{
+    background-color: transparent !important;
+  }
+  body.dark .user-dropdown>.btn .arrow-icon svg path{
+    stroke: #000;
+  }
+  body.dark .settings .deal_left_column{
+    border-bottom-color: rgb(255 255 255 / 20%);
+  }
+  body.dark .seller-notification-box .seller-notification-list .seller-notification-col {
+    background-color: #1f1f1f;
+    box-shadow: 6px 6px 20px rgb(61 61 61);
+    -webkit-box-shadow: 6px 6px 20px rgb(61 61 61);
+  }
+  body.dark .setting-card-body .setting-card-head-right {
+    background: #2f2f2f;
+  }
+  body.dark  .setting-card-body .deal_column.settings:not(:last-child) {
+    border-bottom: solid 1px #606060;
+  }
+  body.dark .setting-card-head-right .buyer_seller_toggle label {
+    border: solid 1px #525252;
+    background-color: #444444;
+  }
+}

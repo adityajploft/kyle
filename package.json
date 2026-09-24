@@ -1,0 +1,75 @@
+{
+  "name": "frontend",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://kyle-react.hipl-staging3.com",
+  "dependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.15.8",
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@hello-pangea/dnd": "^18.0.1",
+    "@mui/material": "^5.14.13",
+    "@react-google-maps/api": "^2.20.3",
+    "@react-oauth/google": "^0.11.0",
+    "@stripe/react-stripe-js": "^2.1.2",
+    "@stripe/stripe-js": "^2.1.0",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.4.0",
+    "chart.js": "^4.5.1",
+    "country-state-city": "^3.1.4",
+    "crypto-js": "^4.1.1",
+    "firebase": "^11.0.2",
+    "framer-motion": "^12.38.0",
+    "jwt-decode": "^3.1.2",
+    "react": "^18.0.0",
+    "react-bootstrap": "^2.8.0",
+    "react-bootstrap-pagination-control": "^1.0.5",
+    "react-chartjs-2": "^5.3.1",
+    "react-circular-progressbar": "^2.1.0",
+    "react-cookie": "^4.1.1",
+    "react-datepicker": "^4.16.0",
+    "react-dom": "^18.2.0",
+    "react-dropzone": "^14.2.10",
+    "react-facebook-login": "^4.1.1",
+    "react-ga4": "^2.1.0",
+    "react-google-recaptcha": "^3.1.0",
+    "react-hook-form": "^7.54.2",
+    "react-router-dom": "^6.14.1",
+    "react-scripts": "5.0.1",
+    "react-select": "^5.7.4",
+    "react-select2": "^4.0.3",
+    "react-share": "^5.1.0",
+    "react-toastify": "^9.1.3",
+    "react-tooltip": "^5.27.0",
+    "socket.io-client": "^4.8.1",
+    "sweetalert2": "^11.7.20",
+    "use-places-autocomplete": "^4.0.1",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "set PORT=3002 && react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

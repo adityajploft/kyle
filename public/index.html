@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="https://kyle-dev.hipl-staging3.com/assets/images/logo.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <!-- <link rel="icon" href="https://beta.buyboxbot.com/assets/images/t-Icon.svg" type="image/svg+xml"> -->
+
+    <meta property="og:image" content="https://beta.buyboxbot.com/assets/images/fb-og-logo.png">
+    <meta property="og:description" content="Real estate deals matching your exact buy box, every time.">
+    <meta property="og:title" content="BuyBoxBot | Streamlined Real Estate Investing">
+    <meta property="og:userName" content="BuyBoxBot | Streamlined Real Estate Investing">
+    <meta property="og:url" content="https://beta.buyboxbot.com">
+    
+    <meta name="description" content="Real estate deals matching your exact buy box, every time."/>
+    <meta name="robots" content="index, follow, max-snippet:-1, max-video-preview:-1, max-image-preview:large"/>
+    <link rel="canonical" href="https://beta.buyboxbot.com" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="BuyBoxBot | Streamlined Real Estate Investing" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="BuyBoxBot | Streamlined Real Estate Investing" />
+    <meta name="twitter:image" content="https://beta.buyboxbot.com/assets/images/twitt-og-logo.png">
+    <meta name="twitter:url" content="https://beta.buyboxbot.com">
+    <meta name="twitter:description" content="Real estate deals matching your exact buy box, every time." />
+    <meta name="twitter:label1" content="Written by" />
+    <meta name="twitter:data1" content="BuyBoxBot | Streamlined Real Estate Investing" />
+    <meta name="twitter:label2" content="Time to read" />
+    <meta name="twitter:data2" content="1 minute" />
+
+
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.4/css/bootstrap-datepicker.css"
+      rel="stylesheet"
+    />
+    <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <!-- FONT FAMILY -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700;800&family=Nunito+Sans:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- BOOTSTRAP CSS -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="%PUBLIC_URL%/assets/css/bootstrap.min.css"
+    />
+
+    <!-- Select-2 CSS -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="%PUBLIC_URL%/assets/css/select2.min.css"
+    />
+
+    <!-- MAIN CSS -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="%PUBLIC_URL%/assets/css/main.css"
+    />
+    <!-- DARK MODE CSS -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="%PUBLIC_URL%/assets/css/dark-mode.css"
+    />
+    <!-- RESPONSIVE CSS -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="%PUBLIC_URL%/assets/css/responsive.css"
+    />
+
+    <!-- FONT FAMILY -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700;800&family=Nunito+Sans:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>BuyboxBot</title>
+  </head>
+  <body class="bg-img position-relative">
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+    <!-- SCRIPTS -->
+    <script
+      type="text/javascript"
+      src="%PUBLIC_URL%/assets/js/jquery.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="%PUBLIC_URL%/assets/js/popper.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="%PUBLIC_URL%/assets/js/bootstrap.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="%PUBLIC_URL%/assets/js/select2.min.js"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.4/js/bootstrap-datepicker.js"></script>
+
+    <!-- <script type="text/javascript" src="%PUBLIC_URL%/assets/js/custom.js"></script> -->
+    <script type="text/javascript">
+      $(document).ready(function () {
+        var dp = $("#datepicker").datepicker({
+          format: "yyyy",
+          viewMode: "years",
+          minViewMode: "years",
+          autoclose: true,
+        });
+        //changeYear event trigger's
+        dp.on("changeYear", function (e) {
+          //do something here
+          alert("Year changed ");
+        });
+      });
+
+      const myValue = localStorage.getItem("darkMode");
+      if (myValue === "true") {
+        $("body").addClass("dark");
+      } else {
+        $("body").removeClass("dark");
+      }
+    </script>
+  </body>
+</html>
